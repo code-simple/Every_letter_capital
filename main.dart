@@ -1,5 +1,7 @@
 //This small script will convert EVERY FIRST LETTER of any String to Capital.
 
+
+
 void main(){
 print(cptl('every letter will be starting with capital letter'));
 }
@@ -13,7 +15,7 @@ String cptl(String txt){
 return cpName.join(' ');
 }
 
-//-------------------OR
+// --------------------EASY WAY----------------------------
 void main(){
   var sentence = 'lamba chora babu ji';
   cptl(sentence);
