@@ -17,7 +17,7 @@ return cpName.join(' ');
 
 // --------------------EASY WAY----------------------------
 void main(){
-  var sentence = 'lamba chora babu ji';
+  var sentence = 'every letter will be starting with capital letter';
   cptl(sentence);
 }
 
