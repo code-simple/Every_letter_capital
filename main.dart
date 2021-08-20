@@ -12,3 +12,17 @@ String cptl(String txt){
   }
 return cpName.join(' ');
 }
+
+//-------------------OR
+void main(){
+  var sentence = 'lamba chora babu ji';
+  cptl(sentence);
+}
+
+void cptl(String text){
+var t = text.split(' ');
+for(int i=0;i<t.length;i++){
+  t[i]=t[i][0].toUpperCase()+t[i].substring(1);
+}
+print( t.join(' '));
+}
